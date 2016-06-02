@@ -8,7 +8,7 @@ public class CricketCoach implements Coach {
     FortuneService fortuneService;
 
     public CricketCoach() {
-        System.out.println("Cricketcoach: inside no-arg constructor");
+        System.out.println("Cricketoach: inside no-arg constructor");
     }
 
     @Override
@@ -22,6 +22,7 @@ public class CricketCoach implements Coach {
     }
 
     public void setFortuneService(FortuneService fortuneService) {
+        System.out.println("CricketCoach: inside setter method - setFortuneService");
         this.fortuneService = fortuneService;
     }
 }
